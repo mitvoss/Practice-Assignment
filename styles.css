@@ -1,0 +1,291 @@
+body {
+    font-family: Courier, arial, sans-serif;
+    overflow-y:scroll;!important
+
+}
+ul.navimenu {
+    list-style-type: none;
+    margin: 0.1px;
+    padding:0.1px;
+    background-color: #333;
+    position: fixed;
+    top: 0.01px;
+    width: 100.5%;
+    left:-4px
+
+}
+li {
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color:white;
+}
+li a.active{
+    background-color: #4caf50;
+    color:white
+}
+
+p {
+    line-height: 4px;
+    font-size: 18px;
+
+}
+
+
+p#welkom{
+    color: #fff;
+    font-size: 20px;
+    margin-right:13%;
+    text-align: center;
+}
+
+#contact{
+    float:right;
+    border-left:1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+
+.vos {
+    text-align: center;
+    margin:auto;
+    display:block;
+    margin-top: 8%;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 8%;
+    margin-right:15%;
+    margin-left: 15%;
+
+}
+
+
+
+
+p#introeen{
+    line-height:1;
+    text-align: center;
+    margin-top:5%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom:1%;
+
+}
+p#introtwee{
+    line-height: 1;
+    text-align: center;
+    margin-right: 33%;
+    margin-left: 33%;
+}
+
+p#introdrie{
+    line-height: 1;
+    text-align: center;
+    margin-right: 36%;
+    margin-left: 36%;
+}
+
+.sinds{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-right:35%;
+    margin-left: 35%;
+    line-height:1;
+    font-weight: bolder;
+
+}
+a.novilink{
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a.novilink:hover{
+    color: #555555;
+    text-decoration:underline;
+    opacity: 70%;
+}
+
+p#extrainfo{
+
+    line-height: 1;
+    text-align: center;
+    margin-right: 36%;
+    margin-left: 36%;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+ul.socialmedia {
+    list-style-type: none;
+    background-color: transparent;
+    margin-top:12.5%;
+    width: 100%;
+    text-align: center;
+    float:bottom;
+
+}
+.fa {
+
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter{
+    color:deepskyblue;
+    background: #0061ff;
+    margin-left:3%;
+}
+.fa-reddit{
+    color:white;
+    background:orangered;
+    margin-left:3%;
+
+}
+
+.fa-twitch{
+    color:purple;
+    background:#f7dcfc;
+    margin-left:3%;
+
+}
+
+.fa-linkedin{
+    color:#186ab8;
+    background:#f5e5bf;
+}
+
+
+
+p.idmaker{
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+a.idmaker{
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    line-height: 0.5;
+    font-size: 16px;
+}
+
+a.idmaker:hover{
+    color: #555555;
+    text-decoration: underline;
+    opacity: 70%;
+}
+
+p.omhoogp {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+    float: bottom;
+}
+
+a.omhoog{
+     margin-top:20%;
+     color:black;
+     background-color: transparent;
+     text-decoration: none;
+     font-size: 20px;
+}
+
+/*----------------------------------------CONTACT PAGINA--------------------------------------------------------------*/
+
+p.loremeen {
+    line-height: 1;
+    text-align: center;
+    margin-right: 36%;
+    margin-left: 36%;
+    margin-bottom: 5%;
+}
+
+div.cg{
+    text-align: center;
+    margin-right: 36%;
+    margin-left: 36%;
+    line-height:0.8;
+
+    margin-top:7.5%;
+
+}
+.fa-google{
+    color:blue;
+    background-color:#9ee09e;
+
+
+ }
+
+p#mi{
+
+    text-align: center;
+    font-size:18px;
+    font-style: italic;
+
+
+}
+
+legend#formulier{
+    text-align: center;
+    display: block;
+
+}
+
+.form{
+    display: block;
+    margin: 1.0em auto;
+    text-align: center;
+    margin-left:38%;
+    margin-right:38%;
+    float: bottom;
+}
+
+
+
+
+
+
+
+
+
